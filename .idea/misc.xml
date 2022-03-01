@@ -11,10 +11,11 @@
         <option value="$PROJECT_DIR$/sp03-userservice/pom.xml" />
         <option value="$PROJECT_DIR$/sp04-orderservice/pom.xml" />
         <option value="$PROJECT_DIR$/sp08-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/sp09-feign/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
     <option name="myConnectionType" value="NONE" />

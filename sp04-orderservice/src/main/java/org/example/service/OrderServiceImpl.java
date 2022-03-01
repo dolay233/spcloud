@@ -1,8 +1,8 @@
 package org.example.service;
 
 
-import org.exam.pojo.Order;
-import org.exam.service.OrderService;
+import com.exam.pojo.Order;
+import com.exam.service.OrderService;
 import org.springframework.stereotype.Service;
 
 

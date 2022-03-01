@@ -3,11 +3,11 @@ package org.example.controller;
 
 import java.util.Arrays;
 
-import org.exam.pojo.Item;
-import org.exam.pojo.Order;
-import org.exam.pojo.User;
-import org.exam.service.OrderService;
-import org.exam.util.JsonResult;
+import com.exam.pojo.Item;
+import com.exam.pojo.Order;
+import com.exam.pojo.User;
+import com.exam.service.OrderService;
+import com.exam.util.JsonResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
