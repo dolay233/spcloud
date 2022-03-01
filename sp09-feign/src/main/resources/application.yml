@@ -10,3 +10,24 @@ eureka:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
 
+ribbon:
+  ConnectTimeout: 1000
+  ReadTimeout: 1000
+#feign + hystrix 降级,feign 默认没有启用 hystrix
+feign:
+  hystrix:
+    enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 500
+
+item-service:
+  ribbon:
+    MaxAutoRetries: 1
+    MaxAutoRetriesNextServer: 2
+    ConnectTimeout: 1000
+    ReadTimeout: 500
